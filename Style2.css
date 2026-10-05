@@ -26,11 +26,3 @@ img{
 .image-grid .three{ grid-area: three; }
 .image-grid .four{ grid-area: four; }
 .image-grid .five{ grid-area: five; }
-
-.boxed{
-  width: 60%;
-  margin: 2rem auto;
-  padding: 1rem;
-  border: 3px dashed black;
-  background-color: green;
-}
