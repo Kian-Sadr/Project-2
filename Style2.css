@@ -21,11 +21,11 @@ img{
   height:auto;
 }
 
-.image-grid img:nth-child(1){ grid-area: one; }
-.image-grid img:nth-child(2){ grid-area: two; }
-.image-grid img:nth-child(3){ grid-area: three; }
-.image-grid img:nth-child(4){ grid-area: four; }
-.image-grid img:nth-child(5){ grid-area: five; }
+.image-grid .one{ grid-area: one; }
+.image-grid .two{ grid-area: two; }
+.image-grid .three{ grid-area: three; }
+.image-grid .four{ grid-area: four; }
+.image-grid .five{ grid-area: five; }
 
 .boxed{
   width: 60%;
