@@ -42,7 +42,7 @@ body{
 .boxed{
   width: 60%;
   margin: 120px auto 0 auto;
-  padding: 1rem;
+  padding: 20px;
   border: 3px dashed black;
   background-color:green;
 }
