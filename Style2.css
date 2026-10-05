@@ -4,10 +4,33 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "one . ."
+    ". two three"
+    ". four five";
 }
 
 .image-grid img{
   width: 100%;
   height: auto;
   border: 3px dashed black;
+}
+
+img{
+  width:300px;
+  height:auto;
+}
+
+.image-grid img:nth-child(1){ grid-area: one; }
+.image-grid img:nth-child(2){ grid-area: two; }
+.image-grid img:nth-child(3){ grid-area: three; }
+.image-grid img:nth-child(4){ grid-area: four; }
+.image-grid img:nth-child(5){ grid-area: five; }
+
+.boxed{
+  width: 60%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 3px dashed black;
+  background-color: green;
 }
