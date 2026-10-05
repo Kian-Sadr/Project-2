@@ -16,7 +16,7 @@ body{
   width: 100%;
   background-color:red;
   padding: 10px;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid yellow;
   display: flex;
   gap: 20px;
 }
