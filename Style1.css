@@ -31,8 +31,8 @@ body{
   font-weight:bold;
 }
 
-.navbar a:visited{
-  color:purple !important;
+a:visited{
+  color:purple;
 }
 
 .navbar a:hover{
