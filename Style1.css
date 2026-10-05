@@ -32,7 +32,7 @@ body{
 }
 
 .navbar a:visited{
-  color:purple;
+  color:purple !important;
 }
 
 .navbar a:hover{
