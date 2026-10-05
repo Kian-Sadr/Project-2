@@ -1,5 +1,44 @@
-/*Style Sheet 1*/
+body, p, a, h1{
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
 
-p{
-  font-size:24px;
+body{
+  background-color:blue;
+  font-family: Comic Sans, sans-serif;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:red;
+  padding: 10px;
+  border-bottom: 4px solid black;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:visited{
+  color:purple;
+}
+
+.navbar a:hover{
+  color:teal;
+}
+
+.boxed{
+  width: 60%;
+  margin: 120px auto 0 auto;
+  padding: 1rem;
+  border: 3px dashed black;
+  background-color:green;
 }
